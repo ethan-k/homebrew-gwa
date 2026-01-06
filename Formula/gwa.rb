@@ -7,22 +7,22 @@ class Gwa < Formula
   on_macos do
     on_arm do
       url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-macos-arm64.tar.gz"
-      sha256 "1379c6ed546ed269fedc5ec06211c4701cb24574f23b12f6ff108b7dfe861f6a"
+      sha256 "c38f0bda3b96a51d167ace224ee0e18fd66059b9ad3b4893a136de7ffff30b94"
     end
     on_intel do
       url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-macos-x64.tar.gz"
-      sha256 "262c6af050a25ac6bf2e3fb4bad95bbed23a36a32e5cb1e9327cc61b20bc6ab0"
+      sha256 "a365324d1168ef4907c0f2747cb0674294b12c7fbe19776f15de9d4f6f0b82e3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-linux-arm64.tar.gz"
-      sha256 "2e8656485ea09356937e6f402ed08e7366e7bb1a6622e48911a2d3bc35f2d037"
+      sha256 "2641272290ab182e13ed121bc1315ce556d127070f0e2ae3a6aeb00d0070efcd"
     end
     on_intel do
       url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-linux-x64.tar.gz"
-      sha256 "bf67f72875dcb7367b231f9dced0c36d12413859198b7388aaf005566e89bdd8"
+      sha256 "f89b8dbfb5162dc1e1429ad57cf9aca299a88b0219ae887c5016abddc2f94423"
     end
   end
 
