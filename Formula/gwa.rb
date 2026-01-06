@@ -6,23 +6,23 @@ class Gwa < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-macos-aarch64.tar.gz"
+      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-macos-arm64.tar.gz"
       sha256 "PLACEHOLDER_MACOS_ARM64"
     end
     on_intel do
-      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-macos-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_MACOS_X86_64"
+      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-macos-x64.tar.gz"
+      sha256 "PLACEHOLDER_MACOS_X64"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-linux-aarch64.tar.gz"
+      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-linux-arm64.tar.gz"
       sha256 "PLACEHOLDER_LINUX_ARM64"
     end
     on_intel do
-      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-linux-x86_64.tar.gz"
-      sha256 "PLACEHOLDER_LINUX_X86_64"
+      url "https://github.com/ethan-k/gwa/releases/download/v#{version}/gwa-linux-x64.tar.gz"
+      sha256 "PLACEHOLDER_LINUX_X64"
     end
   end
 
